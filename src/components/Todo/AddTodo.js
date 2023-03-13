@@ -1,12 +1,19 @@
 import React from 'react'
 import { useState } from 'react'
+import { useAddTodoMutation } from '../../api/apiSlice'
+import { Error, Loading } from '../Status'
 
 const AddTodo = () => {
 	const [todo, setTodo] = useState('')
+	const [addTodo, { isLoading, isError, error }] = useAddTodoMutation()
+
+	if (isLoading) return <Loading />
+	if (isError) return <Error error={error} />
 
 	const onSubmitForm = (e) => {
 		e.preventDefault()
-		console.log(todo)
+		//Use the addTodo mutation to add a new todo
+		addTodo({ userId: 1, title: todo, completed: false })
 		setTodo('')
 	}
 

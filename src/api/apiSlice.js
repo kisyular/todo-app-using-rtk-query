@@ -13,7 +13,15 @@ export const apiSlice = createApi({
 				response.sort((a, b) => b.id - a.id),
 			providesTags: ['Todos'],
 		}),
+		addTodo: builder.mutation({
+			query: (newTodo) => ({
+				url: '/todos',
+				method: 'POST',
+				body: newTodo,
+			}),
+			invalidatesTags: ['Todos'],
+		}),
 	}),
 })
 
-export const { useGetTodosQuery } = apiSlice
+export const { useGetTodosQuery, useAddTodoMutation } = apiSlice
