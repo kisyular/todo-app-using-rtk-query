@@ -1,8 +1,15 @@
 import { useState } from 'react'
 import { FaTrash } from 'react-icons/fa'
 
+import {
+	useUpdateTodoMutation,
+	useDeleteTodoMutation,
+} from '../../api/apiSlice'
+
 const Todo = (todo) => {
 	const [isCompleted, setIsCompleted] = useState(todo.todo.completed)
+	const [updateTodo] = useUpdateTodoMutation()
+	const [deleteTodo] = useDeleteTodoMutation()
 
 	return (
 		<div className='flex mb-4 items-center space-x-3 border-2 rounded-lg sm:px-4 sm:py-3 px-2 border-gray-700'>
@@ -13,7 +20,12 @@ const Todo = (todo) => {
 					checked={isCompleted}
 					onChange={() => {
 						setIsCompleted(!isCompleted)
-						console.log(todo.todo.id)
+						updateTodo({
+							id: todo.todo.id,
+							userId: todo.todo.userId,
+							title: todo.todo.title,
+							completed: !isCompleted,
+						})
 					}}
 				/>
 			</div>
@@ -27,7 +39,7 @@ const Todo = (todo) => {
 			<FaTrash
 				className='text-2xl text-red-700'
 				onClick={() => {
-					console.log(todo.todo.id)
+					deleteTodo({ id: todo.todo.id })
 				}}
 			/>
 		</div>

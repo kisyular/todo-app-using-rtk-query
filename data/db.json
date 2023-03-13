@@ -599,12 +599,6 @@
       "id": 97,
       "title": "Develop and implement a lead generation strategy",
       "completed": true
-    },
-    {
-      "userId": 1,
-      "title": "Hello",
-      "completed": false,
-      "id": 98
     }
   ]
 }
