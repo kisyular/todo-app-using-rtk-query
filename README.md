@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# A SIMPLE TODO APP USING REACT AND REDUX - RTK QUERY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple todo app using React and Redux - RTK Query. It is a simple todo app that allows you to add, delete and update todos. It uses the RTK Query library to make API calls to a mock API json-server.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Before getting started, make sure you have json-server installed globally:
 
-### `npm start`
+```bash
+npm install -g json-server
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then, clone the repo and install the dependencies:
+After cloning the repo, To install all the required packages specified in the `package.json` file, run the following command:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+## Styling with Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app uses [Tailwind CSS](https://tailwindcss.com/) for styling. To learn more about Tailwind CSS, check out the [Tailwind CSS documentation](https://tailwindcss.com/docs).
 
-### `npm run build`
+To use it, you'll need to install and configure it:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm i --dev tailwindcss
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After installing Tailwind CSS, you'll need to create a Tailwind CSS configuration file:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npx tailwindcss init
+```
 
-### `npm run eject`
+This will create a `tailwind.config.js` file in the root directory of your project. Add the following to the `tailwind.config.js` file:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+	content: ['./src/**/*.{js,jsx,ts,tsx}'],
+	theme: {
+		extend: {},
+	},
+	plugins: [],
+}
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In your `index.css` file, add the following:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+To start the application, run the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will start the application on port 3000. You can view the application by navigating to http://localhost:3000 in your browser.
 
-### Code Splitting
+To start the json-server, run the following command in a new terminal window:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+json-server --watch db.json --port 3004
+```
 
-### Analyzing the Bundle Size
+This will start the json-server on port 3004. You can view the json-server by navigating to http://localhost:3004/todos in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy!
