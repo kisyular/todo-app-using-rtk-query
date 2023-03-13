@@ -1,0 +1,604 @@
+{
+  "todos": [
+    {
+      "userId": 3,
+      "id": 1,
+      "title": "Revise the employee handbook to include new policies",
+      "completed": false,
+      "changes": {
+        "completed": true
+      }
+    },
+    {
+      "userId": 6,
+      "id": 2,
+      "title": "Develop a training program for new employees",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 3,
+      "title": "Plan and execute a social media campaign",
+      "completed": false
+    },
+    {
+      "userId": 9,
+      "id": 4,
+      "title": "Analyze website analytics to identify areas for improvement",
+      "completed": false,
+      "changes": {
+        "completed": true
+      }
+    },
+    {
+      "userId": 5,
+      "id": 5,
+      "title": "Create an employee recognition program to boost morale",
+      "completed": false
+    },
+    {
+      "userId": 8,
+      "id": 6,
+      "title": "Implement a new project management tool for the team",
+      "completed": false,
+      "changes": {
+        "completed": true
+      }
+    },
+    {
+      "userId": 4,
+      "id": 7,
+      "title": "Develop a sales strategy for a new product line",
+      "completed": false,
+      "changes": {
+        "completed": true
+      }
+    },
+    {
+      "userId": 10,
+      "id": 8,
+      "title": "Conduct customer feedback surveys to improve customer satisfaction",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 9,
+      "title": "Schedule regular team meetings to improve communication",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "Organize a team-building event for the staff",
+      "completed": true,
+      "changes": {
+        "completed": true
+      }
+    },
+    {
+      "userId": 8,
+      "id": 11,
+      "title": "Create a checklist for the onboarding process of new employees",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 12,
+      "title": "Research and negotiate new vendor contracts",
+      "completed": true
+    },
+    {
+      "userId": 7,
+      "id": 13,
+      "title": "Develop a training program for new employees",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 14,
+      "title": "Review and update website content to improve SEO",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 15,
+      "title": "Establish a mentorship program for junior employees",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 16,
+      "title": "Conduct market research to identify potential new markets",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 17,
+      "title": "Develop a crisis communication plan for the company",
+      "completed": true
+    },
+    {
+      "userId": 6,
+      "id": 18,
+      "title": "Plan and coordinate an offsite team-building retreat",
+      "completed": false,
+      "changes": {
+        "completed": true
+      }
+    },
+    {
+      "userId": 5,
+      "id": 19,
+      "title": "Create a content marketing strategy to increase website traffic",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 20,
+      "title": "Evaluate and update company policies and procedures",
+      "completed": true
+    },
+    {
+      "userId": 7,
+      "id": 21,
+      "title": "Develop a new product roadmap for the company",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 22,
+      "title": "Create and implement a customer loyalty program",
+      "completed": true
+    },
+    {
+      "userId": 6,
+      "id": 23,
+      "title": "Conduct employee performance reviews and provide feedback",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 24,
+      "title": "Develop and implement a safety training program",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 25,
+      "title": "Review and update company branding and marketing materials",
+      "completed": true
+    },
+    {
+      "userId": 5,
+      "id": 26,
+      "title": "Create and implement a diversity and inclusion training program",
+      "completed": false
+    },
+    {
+      "userId": 3,
+      "id": 27,
+      "title": "Research and identify potential strategic partnerships",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 28,
+      "title": "Develop and implement a mentorship program for women in the workplace",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 29,
+      "title": "Conduct a competitive analysis of similar companies in the industry",
+      "completed": true
+    },
+    {
+      "userId": 7,
+      "id": 30,
+      "title": "Create and implement a remote work policy for the company",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 31,
+      "title": "Develop and implement an employee wellness program",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 32,
+      "title": "Conduct customer satisfaction surveys and analyze results",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 33,
+      "title": "Create and implement an environmental sustainability program",
+      "completed": true
+    },
+    {
+      "userId": 4,
+      "id": 34,
+      "title": "Develop and implement a customer service training program",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 35,
+      "title": "Conduct market research to identify trends and customer preferences",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 36,
+      "title": "Create and implement an employee feedback program",
+      "completed": false
+    },
+    {
+      "userId": 5,
+      "id": 37,
+      "title": "Develop and implement a social responsibility program",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 38,
+      "title": "Conduct a SWOT analysis of the company",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 39,
+      "title": "Create and implement a company-wide training program",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 40,
+      "title": "Develop and implement a cybersecurity policy",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 41,
+      "title": "Conduct a financial analysis of the company",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 42,
+      "title": "Create and implement a performance management program",
+      "completed": true
+    },
+    {
+      "userId": 4,
+      "id": 43,
+      "title": "Develop and implement a customer feedback program",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 44,
+      "title": "Review and update the company's website and online presence",
+      "completed": false
+    },
+    {
+      "userId": 5,
+      "id": 45,
+      "title": "Create and implement a training program for new hires",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 46,
+      "title": "Conduct a risk analysis of the company's operations",
+      "completed": false
+    },
+    {
+      "userId": 9,
+      "id": 47,
+      "title": "Develop and implement a leadership development program",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 48,
+      "title": "Create and implement a social media marketing strategy",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 49,
+      "title": "Develop and implement an employee recognition program",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 50,
+      "title": "Conduct a customer segmentation analysis",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 51,
+      "title": "Research and implement a new project management tool",
+      "completed": true
+    },
+    {
+      "userId": 5,
+      "id": 52,
+      "title": "Conduct a competitive analysis of the industry",
+      "completed": false
+    },
+    {
+      "userId": 8,
+      "id": 53,
+      "title": "Develop and implement an employee wellness program",
+      "completed": true
+    },
+    {
+      "userId": 4,
+      "id": 54,
+      "title": "Create and implement a sales strategy",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 55,
+      "title": "Conduct a SWOT analysis of the company",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 56,
+      "title": "Develop and implement a diversity and inclusion program",
+      "completed": false
+    },
+    {
+      "userId": 3,
+      "id": 57,
+      "title": "Review and update the company's branding",
+      "completed": true
+    },
+    {
+      "userId": 7,
+      "id": 58,
+      "title": "Conduct a market research study",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 59,
+      "title": "Create and implement an email marketing campaign",
+      "completed": true
+    },
+    {
+      "userId": 6,
+      "id": 60,
+      "title": "Develop and implement a knowledge management system",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 61,
+      "title": "Conduct a usability study of the company's website",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 62,
+      "title": "Develop and implement an environmental sustainability program",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 63,
+      "title": "Conduct a customer satisfaction survey",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 64,
+      "title": "Create and implement a referral program",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 65,
+      "title": "Develop and implement an onboarding program for new hires",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 66,
+      "title": "Conduct a market opportunity analysis",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 67,
+      "title": "Develop and implement a product roadmap",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 68,
+      "title": "Conduct a feasibility study of a new product idea",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 69,
+      "title": "Create and implement a social responsibility program",
+      "completed": true
+    },
+    {
+      "userId": 5,
+      "id": 70,
+      "title": "Conduct a data analysis of customer behavior",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 71,
+      "title": "Develop and implement an employee training program",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 72,
+      "title": "Conduct a customer journey mapping exercise",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 73,
+      "title": "Develop and implement a supplier diversity program",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 74,
+      "title": "Conduct a product pricing analysis",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 75,
+      "title": "Create and implement an employee engagement program",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 76,
+      "title": "Conduct a brand perception study",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 77,
+      "title": "Develop and implement a social media advertising campaign",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 78,
+      "title": "Conduct a market segmentation analysis",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 79,
+      "title": "Create and implement a customer loyalty program",
+      "completed": true
+    },
+    {
+      "userId": 5,
+      "id": 80,
+      "title": "Conduct a website traffic analysis",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 81,
+      "title": "Develop and implement acustomer service training program",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 82,
+      "title": "Conduct a competitive analysis",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 83,
+      "title": "Develop and implement a diversity and inclusion program",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 84,
+      "title": "Conduct a market research study",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 85,
+      "title": "Create and implement an employee recognition program",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 86,
+      "title": "Conduct a product feature analysis",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 87,
+      "title": "Develop and implement a content marketing strategy",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 88,
+      "title": "Conduct a customer needs analysis",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 89,
+      "title": "Create and implement a referral marketing program",
+      "completed": true
+    },
+    {
+      "userId": 5,
+      "id": 90,
+      "title": "Conduct a website user experience analysis",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 91,
+      "title": "Develop and implement a supply chain optimization program",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 92,
+      "title": "Conduct a customer retention analysis",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 93,
+      "title": "Develop and implement a customer feedback program",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 94,
+      "title": "Conduct a market share analysis",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 95,
+      "title": "Create and implement a wellness program for employees",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 96,
+      "title": "Conduct a product feature prioritization exercise",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 97,
+      "title": "Develop and implement a lead generation strategy",
+      "completed": true
+    }
+  ]
+}
